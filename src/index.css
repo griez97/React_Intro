@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Poppin;
+    src: url('fonts/Poppins-Medium.ttf');
+}
+:root {
+    font-family: "Poppin";
+    color: #7b7d9a;
+    background-color: #22283f;
+
+    -font-color-main: #7b7d9a;
+    -font-color-hightlight: #8f9ed9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+button {
+    background-color: transparent;
+    color: #a6b1e1;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 8px 16px;
+    border: 1px solid #a6b1e1;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a6b1e1;
+    color: #1a2238;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}

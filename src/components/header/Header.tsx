@@ -1,11 +1,12 @@
 import './Header.css'
+import jsIcon from "../../../public/img/js.png"
 
 const Header = () => {
     return ( 
         <>
         <nav className='navBar'>
             <div className='navIcon'>
-                <img className='iconPicture' src="img/js.png" alt="" />
+                <img className='iconPicture' src={jsIcon} alt="" />
             </div>
             <div className='anchor'>
                 <a href="#">projects</a>
